@@ -5,7 +5,7 @@ TOKEN=os.environ["BOT_TOKEN"]
 STAR_PRICE=int(os.getenv("STAR_PRICE","700"))
 PDF=Path(os.getenv("PDF_PATH","partnerka_s_nulya_pervyy_zapusk.pdf"))
 TERMS_URL=os.getenv("TERMS_URL","https://korishalex12.github.io/PartnerkaStartBot/")
-SUPPORT=os.getenv("SUPPORT_TEXT","По вопросам оплаты и доступа: @YOUR_USERNAME")
+SUPPORT=os.getenv("SUPPORT_TEXT","По вопросам оплаты и доступа: @Korishsemi")
 API=f"https://api.telegram.org/bot{TOKEN}/"
 PAYLOAD="partnerka_course_v1"
 
